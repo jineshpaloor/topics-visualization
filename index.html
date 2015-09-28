@@ -9,6 +9,7 @@
     <script src="/static/c3-0.4.10/c3.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.11.3.min.js" type="text/javascript"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="/static/common.js" type="text/javascript"></script>
     </head>
     <body>
         <div class="container">
@@ -37,6 +38,12 @@
                 </div>
             </div>
         </div>
-        <script src="/static/common.js" type="text/javascript"></script>
+
+        <script type="text/javascript">
+        $(document).ready(function () {
+            console.log("loading index.html...");
+            NS.topics.init();
+        });
+        </script>
     </body>
 </html>
