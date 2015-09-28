@@ -1,0 +1,1262 @@
+{
+    "topic0": [
+        [
+            "construction ",
+            19.62
+        ],
+        [
+            "company ",
+            15.79
+        ],
+        [
+            "international ",
+            14.35
+        ],
+        [
+            "distribution ",
+            9.57
+        ],
+        [
+            "audio ",
+            8.37
+        ],
+        [
+            "major ",
+            7.42
+        ],
+        [
+            "american ",
+            6.94
+        ],
+        [
+            "workers ",
+            6.7
+        ],
+        [
+            "patents ",
+            6.22
+        ],
+        [
+            "unit",
+            5.02
+        ]
+    ],
+    "topic1": [
+        [
+            "transformer ",
+            40.6
+        ],
+        [
+            "transformers ",
+            25.89
+        ],
+        [
+            "windings ",
+            5.72
+        ],
+        [
+            "australian ",
+            5.18
+        ],
+        [
+            "oil ",
+            4.63
+        ],
+        [
+            "leakage ",
+            4.36
+        ],
+        [
+            "operator ",
+            4.36
+        ],
+        [
+            "insulation ",
+            3.54
+        ],
+        [
+            "protection ",
+            3
+        ],
+        [
+            "eddy",
+            2.72
+        ]
+    ],
+    "topic2": [
+        [
+            "primary ",
+            22.04
+        ],
+        [
+            "coils ",
+            12.37
+        ],
+        [
+            "communication ",
+            11.56
+        ],
+        [
+            "ac ",
+            10.22
+        ],
+        [
+            "emf ",
+            9.14
+        ],
+        [
+            "practice ",
+            8.06
+        ],
+        [
+            "thompson ",
+            6.99
+        ],
+        [
+            "voltages ",
+            6.99
+        ],
+        [
+            "tesla ",
+            6.72
+        ],
+        [
+            "currents",
+            5.91
+        ]
+    ],
+    "topic3": [
+        [
+            "core ",
+            43.49
+        ],
+        [
+            "loop ",
+            8.61
+        ],
+        [
+            "iron ",
+            7.51
+        ],
+        [
+            "steel ",
+            6.84
+        ],
+        [
+            "windings ",
+            6.4
+        ],
+        [
+            "east ",
+            6.4
+        ],
+        [
+            "coil ",
+            5.52
+        ],
+        [
+            "liquid ",
+            5.3
+        ],
+        [
+            "variable ",
+            5.3
+        ],
+        [
+            "requirement",
+            4.64
+        ]
+    ],
+    "topic4": [
+        [
+            "flows ",
+            31.39
+        ],
+        [
+            "italy ",
+            25.83
+        ],
+        [
+            "continue ",
+            7.22
+        ],
+        [
+            "town ",
+            6.11
+        ],
+        [
+            "uk ",
+            6.11
+        ],
+        [
+            "switch ",
+            5.56
+        ],
+        [
+            "consideration ",
+            4.72
+        ],
+        [
+            "officially ",
+            4.72
+        ],
+        [
+            "processes ",
+            4.44
+        ],
+        [
+            "reached",
+            3.89
+        ]
+    ],
+    "topic5": [
+        [
+            "snowy ",
+            50.21
+        ],
+        [
+            "minute ",
+            9.79
+        ],
+        [
+            "error ",
+            8.54
+        ],
+        [
+            "varying ",
+            5.83
+        ],
+        [
+            "london ",
+            5.83
+        ],
+        [
+            "message ",
+            5
+        ],
+        [
+            "english ",
+            3.96
+        ],
+        [
+            "industry ",
+            3.75
+        ],
+        [
+            "public ",
+            3.75
+        ],
+        [
+            "union",
+            3.33
+        ]
+    ],
+    "topic6": [
+        [
+            "pid ",
+            26.06
+        ],
+        [
+            "south ",
+            20.4
+        ],
+        [
+            "letter ",
+            9.92
+        ],
+        [
+            "collection ",
+            8.22
+        ],
+        [
+            "written ",
+            7.65
+        ],
+        [
+            "mark ",
+            7.37
+        ],
+        [
+            "additional ",
+            6.23
+        ],
+        [
+            "westinghouse ",
+            4.82
+        ],
+        [
+            "factory ",
+            4.82
+        ],
+        [
+            "subsequently",
+            4.53
+        ]
+    ],
+    "topic7": [
+        [
+            "induction ",
+            14.89
+        ],
+        [
+            "engineers ",
+            13.24
+        ],
+        [
+            "governments ",
+            11.82
+        ],
+        [
+            "flow ",
+            10.87
+        ],
+        [
+            "letters ",
+            10.64
+        ],
+        [
+            "generator ",
+            9.22
+        ],
+        [
+            "parameters ",
+            8.04
+        ],
+        [
+            "requires ",
+            7.57
+        ],
+        [
+            "country ",
+            6.86
+        ],
+        [
+            "heating",
+            6.86
+        ]
+    ],
+    "topic8": [
+        [
+            "scheme ",
+            35.31
+        ],
+        [
+            "river ",
+            15.51
+        ],
+        [
+            "mountains ",
+            14.85
+        ],
+        [
+            "hydro ",
+            6.6
+        ],
+        [
+            "character ",
+            6.27
+        ],
+        [
+            "test ",
+            4.95
+        ],
+        [
+            "commonwealth ",
+            4.29
+        ],
+        [
+            "lake ",
+            4.29
+        ],
+        [
+            "hydroelectric ",
+            4.29
+        ],
+        [
+            "waters",
+            3.63
+        ]
+    ],
+    "topic9": [
+        [
+            "kilometres ",
+            21.02
+        ],
+        [
+            "employed ",
+            14.71
+        ],
+        [
+            "shell ",
+            13.21
+        ],
+        [
+            "st ",
+            10.81
+        ],
+        [
+            "wales ",
+            7.51
+        ],
+        [
+            "germany ",
+            7.21
+        ],
+        [
+            "independent ",
+            7.21
+        ],
+        [
+            "copy ",
+            6.31
+        ],
+        [
+            "navigation ",
+            6.31
+        ],
+        [
+            "side",
+            5.71
+        ]
+    ],
+    "topic10": [
+        [
+            "winding ",
+            47.19
+        ],
+        [
+            "addition ",
+            7.79
+        ],
+        [
+            "modern ",
+            7.79
+        ],
+        [
+            "tests ",
+            7.14
+        ],
+        [
+            "equivalent ",
+            7.14
+        ],
+        [
+            "license ",
+            5.63
+        ],
+        [
+            "ireland ",
+            4.98
+        ],
+        [
+            "size ",
+            4.55
+        ],
+        [
+            "groups ",
+            4.33
+        ],
+        [
+            "oxford",
+            3.46
+        ]
+    ],
+    "topic11": [
+        [
+            "commercial ",
+            17.28
+        ],
+        [
+            "project ",
+            12.84
+        ],
+        [
+            "john ",
+            12.35
+        ],
+        [
+            "scientific ",
+            12.1
+        ],
+        [
+            "paris ",
+            11.11
+        ],
+        [
+            "law ",
+            9.63
+        ],
+        [
+            "initially ",
+            6.91
+        ],
+        [
+            "thin ",
+            6.91
+        ],
+        [
+            "social ",
+            5.68
+        ],
+        [
+            "prospective",
+            5.19
+        ]
+    ],
+    "topic12": [
+        [
+            "derivative ",
+            17.96
+        ],
+        [
+            "day ",
+            12.87
+        ],
+        [
+            "joule ",
+            11.08
+        ],
+        [
+            "letters ",
+            10.18
+        ],
+        [
+            "motion ",
+            9.58
+        ],
+        [
+            "physics ",
+            9.58
+        ],
+        [
+            "member ",
+            8.08
+        ],
+        [
+            "concerned ",
+            7.49
+        ],
+        [
+            "reported ",
+            6.89
+        ],
+        [
+            "increases",
+            6.29
+        ]
+    ],
+    "topic13": [
+        [
+            "marconi ",
+            71.38
+        ],
+        [
+            "highest ",
+            4.14
+        ],
+        [
+            "hz ",
+            3.79
+        ],
+        [
+            "countries ",
+            3.79
+        ],
+        [
+            "converters ",
+            3.1
+        ],
+        [
+            "sir ",
+            3.1
+        ],
+        [
+            "units ",
+            3.1
+        ],
+        [
+            "step ",
+            2.76
+        ],
+        [
+            "controlled ",
+            2.41
+        ],
+        [
+            "symbol",
+            2.41
+        ]
+    ],
+    "topic14": [
+        [
+            "text ",
+            18.32
+        ],
+        [
+            "york ",
+            12.61
+        ],
+        [
+            "dash ",
+            10.81
+        ],
+        [
+            "year ",
+            10.51
+        ],
+        [
+            "british ",
+            9.61
+        ],
+        [
+            "agreed ",
+            8.41
+        ],
+        [
+            "requirements ",
+            8.11
+        ],
+        [
+            "legislation ",
+            8.11
+        ],
+        [
+            "language ",
+            7.21
+        ],
+        [
+            "april",
+            6.31
+        ]
+    ],
+    "topic15": [
+        [
+            "software ",
+            14.13
+        ],
+        [
+            "street ",
+            13.01
+        ],
+        [
+            "books ",
+            11.9
+        ],
+        [
+            "led ",
+            10.04
+        ],
+        [
+            "corporation ",
+            9.67
+        ],
+        [
+            "earlier ",
+            8.55
+        ],
+        [
+            "archives ",
+            8.55
+        ],
+        [
+            "head ",
+            8.55
+        ],
+        [
+            "introduction ",
+            7.81
+        ],
+        [
+            "records",
+            7.81
+        ]
+    ],
+    "topic16": [
+        [
+            "morse ",
+            53.43
+        ],
+        [
+            "wireless ",
+            13
+        ],
+        [
+            "telegraphy ",
+            7.8
+        ],
+        [
+            "italian ",
+            6.15
+        ],
+        [
+            "transmissions ",
+            5.2
+        ],
+        [
+            "messages ",
+            3.07
+        ],
+        [
+            "wales ",
+            3.07
+        ],
+        [
+            "ft ",
+            3.07
+        ],
+        [
+            "metres ",
+            2.6
+        ],
+        [
+            "patent",
+            2.6
+        ]
+    ],
+    "topic17": [
+        [
+            "united ",
+            22.4
+        ],
+        [
+            "years ",
+            22.05
+        ],
+        [
+            "capacity ",
+            10.23
+        ],
+        [
+            "integral ",
+            10.05
+        ],
+        [
+            "july ",
+            6.88
+        ],
+        [
+            "december ",
+            6.53
+        ],
+        [
+            "august ",
+            6.35
+        ],
+        [
+            "book ",
+            5.47
+        ],
+        [
+            "dry ",
+            5.11
+        ],
+        [
+            "park",
+            4.94
+        ]
+    ],
+    "topic18": [
+        [
+            "temperature ",
+            13.89
+        ],
+        [
+            "natural ",
+            13.61
+        ],
+        [
+            "closed ",
+            12.78
+        ],
+        [
+            "tape ",
+            11.11
+        ],
+        [
+            "machines ",
+            9.44
+        ],
+        [
+            "increasing ",
+            9.17
+        ],
+        [
+            "conductor ",
+            8.33
+        ],
+        [
+            "representing ",
+            7.78
+        ],
+        [
+            "sequence ",
+            7.22
+        ],
+        [
+            "switching",
+            6.67
+        ]
+    ],
+    "topic19": [
+        [
+            "australia ",
+            31.72
+        ],
+        [
+            "controller ",
+            14.75
+        ],
+        [
+            "impedance ",
+            10.1
+        ],
+        [
+            "people ",
+            9.49
+        ],
+        [
+            "voice ",
+            7.68
+        ],
+        [
+            "rate ",
+            7.27
+        ],
+        [
+            "key ",
+            5.45
+        ],
+        [
+            "america ",
+            5.25
+        ],
+        [
+            "providing ",
+            4.44
+        ],
+        [
+            "operators",
+            3.84
+        ]
+    ],
+    "topic20": [
+        [
+            "telegraph ",
+            37.69
+        ],
+        [
+            "biomedical ",
+            10.07
+        ],
+        [
+            "bme ",
+            8.21
+        ],
+        [
+            "standards ",
+            7.84
+        ],
+        [
+            "building ",
+            7.46
+        ],
+        [
+            "properties ",
+            7.46
+        ],
+        [
+            "ocean ",
+            5.6
+        ],
+        [
+            "video ",
+            5.6
+        ],
+        [
+            "pressure ",
+            5.22
+        ],
+        [
+            "percent",
+            4.85
+        ]
+    ],
+    "topic21": [
+        [
+            "cores ",
+            16.09
+        ],
+        [
+            "operating ",
+            12.62
+        ],
+        [
+            "victoria ",
+            10.09
+        ],
+        [
+            "constructed ",
+            10.09
+        ],
+        [
+            "area ",
+            9.46
+        ],
+        [
+            "authority ",
+            9.15
+        ],
+        [
+            "controllers ",
+            9.15
+        ],
+        [
+            "gap ",
+            8.2
+        ],
+        [
+            "cooled ",
+            7.89
+        ],
+        [
+            "final",
+            7.26
+        ]
+    ],
+    "topic22": [
+        [
+            "dots ",
+            18.62
+        ],
+        [
+            "air ",
+            18.05
+        ],
+        [
+            "turns ",
+            9.17
+        ],
+        [
+            "tuning ",
+            8.88
+        ],
+        [
+            "wires ",
+            8.6
+        ],
+        [
+            "transatlantic ",
+            8.31
+        ],
+        [
+            "transmitter ",
+            7.74
+        ],
+        [
+            "represented ",
+            7.45
+        ],
+        [
+            "impedances ",
+            7.16
+        ],
+        [
+            "generating",
+            6.02
+        ]
+    ],
+    "topic23": [
+        [
+            "code ",
+            40.29
+        ],
+        [
+            "dot ",
+            10.99
+        ],
+        [
+            "station ",
+            7.69
+        ],
+        [
+            "national ",
+            6.96
+        ],
+        [
+            "war ",
+            6.23
+        ],
+        [
+            "amateur ",
+            6.23
+        ],
+        [
+            "government ",
+            5.49
+        ],
+        [
+            "characters ",
+            5.49
+        ],
+        [
+            "stations ",
+            5.49
+        ],
+        [
+            "dah",
+            5.13
+        ]
+    ],
+    "topic24": [
+        [
+            "heil ",
+            19.07
+        ],
+        [
+            "england ",
+            10.59
+        ],
+        [
+            "typical ",
+            10.17
+        ],
+        [
+            "target ",
+            10.17
+        ],
+        [
+            "efficiency ",
+            9.75
+        ],
+        [
+            "tube ",
+            8.9
+        ],
+        [
+            "november ",
+            8.05
+        ],
+        [
+            "achieve ",
+            8.05
+        ],
+        [
+            "cross ",
+            7.63
+        ],
+        [
+            "invented",
+            7.63
+        ]
+    ],
+    "topic25": [
+        [
+            "losses ",
+            30.66
+        ],
+        [
+            "dc ",
+            14.39
+        ],
+        [
+            "transmitted ",
+            9.91
+        ],
+        [
+            "extra ",
+            8.96
+        ],
+        [
+            "receive ",
+            7.55
+        ],
+        [
+            "popular ",
+            7.31
+        ],
+        [
+            "faraday ",
+            6.6
+        ],
+        [
+            "mode ",
+            5.42
+        ],
+        [
+            "converter ",
+            4.72
+        ],
+        [
+            "forward",
+            4.48
+        ]
+    ],
+    "topic26": [
+        [
+            "a ",
+            48.98
+        ],
+        [
+            "power ",
+            9.91
+        ],
+        [
+            "radio ",
+            8.16
+        ],
+        [
+            "current ",
+            7.29
+        ],
+        [
+            "voltage ",
+            4.96
+        ],
+        [
+            "high ",
+            4.96
+        ],
+        [
+            "circuit ",
+            4.66
+        ],
+        [
+            "electric ",
+            4.08
+        ],
+        [
+            "short ",
+            3.5
+        ],
+        [
+            "frequency",
+            3.5
+        ]
+    ],
+    "topic27": [
+        [
+            "secondary ",
+            23.31
+        ],
+        [
+            "flux ",
+            22.56
+        ],
+        [
+            "frequencies ",
+            10.78
+        ],
+        [
+            "ideal ",
+            10.28
+        ],
+        [
+            "cooling ",
+            7.77
+        ],
+        [
+            "hysteresis ",
+            6.27
+        ],
+        [
+            "heat ",
+            6.02
+        ],
+        [
+            "values ",
+            4.51
+        ],
+        [
+            "individual ",
+            4.26
+        ],
+        [
+            "larger",
+            4.26
+        ]
+    ],
+    "topic28": [
+        [
+            "water ",
+            25.24
+        ],
+        [
+            "guglielmo ",
+            19.92
+        ],
+        [
+            "history ",
+            18.41
+        ],
+        [
+            "word ",
+            14.8
+        ],
+        [
+            "environmental ",
+            8.92
+        ],
+        [
+            "inventor ",
+            3.42
+        ],
+        [
+            "marine ",
+            2.85
+        ],
+        [
+            "referred ",
+            2.66
+        ],
+        [
+            "box ",
+            1.9
+        ],
+        [
+            "inside",
+            1.9
+        ]
+    ],
+    "topic29": [
+        [
+            "engineer ",
+            13.93
+        ],
+        [
+            "medical ",
+            11.79
+        ],
+        [
+            "life ",
+            11.43
+        ],
+        [
+            "museum ",
+            11.43
+        ],
+        [
+            "role ",
+            9.64
+        ],
+        [
+            "service ",
+            8.93
+        ],
+        [
+            "management ",
+            8.57
+        ],
+        [
+            "born ",
+            8.21
+        ],
+        [
+            "held ",
+            8.21
+        ],
+        [
+            "location",
+            7.86
+        ]
+    ]
+}
