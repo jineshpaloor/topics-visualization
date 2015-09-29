@@ -45,7 +45,7 @@ NS.topics = (function () {
 
     // define the init function (Implementation)
     var init = function () {
-        $.getJSON("topics.json", function(doc_topics) {
+        $.getJSON("/static/json/topics.json", function(doc_topics) {
             config.topics = doc_topics; 
             render_topics();
             render_pie_chart('topic0');
@@ -117,15 +117,15 @@ NS.documents_topics = (function () {
 
     // define the init function (Implementation)
     var init = function () {
-        $.getJSON("topics.json", function(topics) {
+        $.getJSON("/static/json/topics.json", function(topics) {
             config.topics = topics; 
         });
 
-        $.getJSON("wiki_files.json", function(file_names) {
+        $.getJSON("/static/json/wiki_files.json", function(file_names) {
             config.files = file_names; 
         });
 
-        $.getJSON("doc_topics.json", function(doc_topics) {
+        $.getJSON("/static/json/doc_topics.json", function(doc_topics) {
             config.doc_topics = doc_topics; 
             update_docs_dropdown_menu();
             render_doc_pie_chart(config.files[0]);
