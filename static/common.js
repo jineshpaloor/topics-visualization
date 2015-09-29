@@ -106,6 +106,8 @@ NS.documents_topics = (function () {
             }
         });
         $("#chart-title").text(doc_name);
+        var topic_no = "topic" + config.doc_topics[doc_name][0][0];
+        render_topic_pie_chart(topic_no) 
     }
 
     function register_dropdown_change() {
