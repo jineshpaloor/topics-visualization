@@ -65,6 +65,7 @@ NS.documents_topics = (function () {
     var config = {
         autoInvokeInit: false, // whether the init function must be invoked automatically when page loads
         files: {},
+        topics: {},
         doc_topics: {}
     };
 
@@ -77,15 +78,28 @@ NS.documents_topics = (function () {
         register_dropdown_change();
     };
 
+    function render_topic_pie_chart(topic_no) {
+        var chart = c3.generate({
+            bindto: '#topic-chart',
+            data: {
+                columns: config.topics[topic_no],
+                type : 'pie',
+                // onclick: function (d, i) { console.log("onclick", d, i); },
+                //onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+                //onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+            }
+        });
+        $("#topic-title").text(topic_no);
+    }
+
     function render_doc_pie_chart(doc_name) {
         var chart = c3.generate({
+            bindto: document.getElementById('doc-chart'),//'#doc-chart',
             data: {
-                // iris data from R
                 columns: config.doc_topics[doc_name],
                 type : 'pie',
                 onclick: function (d, i) { 
-                    console.log("topic is :", d["id"]); 
-                    // NS.topics.render_pie_chart("topic" + d["id"])
+                    render_topic_pie_chart('topic' + d["id"]);
                 },
                 //onmouseover: function (d, i) { console.log("onmouseover", d, i); },
                 //onmouseout: function (d, i) { console.log("onmouseout", d, i); }
@@ -103,9 +117,14 @@ NS.documents_topics = (function () {
 
     // define the init function (Implementation)
     var init = function () {
+        $.getJSON("topics.json", function(topics) {
+            config.topics = topics; 
+        });
+
         $.getJSON("wiki_files.json", function(file_names) {
             config.files = file_names; 
         });
+
         $.getJSON("doc_topics.json", function(doc_topics) {
             config.doc_topics = doc_topics; 
             update_docs_dropdown_menu();
