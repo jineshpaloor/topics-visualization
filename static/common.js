@@ -71,9 +71,15 @@ NS.documents_topics = (function () {
 
     function update_docs_dropdown_menu() {
         var li_menu = "";
+        var doc_names = [];
         $.each(config.doc_topics, function(k, v){
-            li_menu += "<li class='wiki-document'><a href='#'>" + k + "</a></li>";
+            doc_names.push(k);
         });
+        doc_names.sort();
+        $.each(doc_names, function(k, v){
+            li_menu += "<li class='wiki-document'><a href='#'>" + v + "</a></li>";
+        });
+
         $("#documents-dropdown-menu").html(li_menu);
         register_dropdown_change();
     };
