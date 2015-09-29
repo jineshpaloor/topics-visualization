@@ -1,3 +1,4 @@
+import os
 import gensim
 
 # Sample Topic
@@ -9,11 +10,11 @@ def process_topic(topic):
         key=lambda x: x[0],
         reverse=True)
 
-def get_topics():
-    lda = gensim.models.LdaModel.load('/Users/jineshn/Code/python/gensim_scripts/backup_logs/wiki_normal.lda')
+def get_topics(lda_path):
+    lda = gensim.models.LdaModel.load(lda_path)
     
     f = open('electrical-topics.json', 'w')
-    f.write('doc_topics={\n')
+    f.write('{\n')
     for topic_no in xrange(lda.num_topics):
         topic = lda.print_topic(topic_no)
         word_weight = process_topic(topic)
@@ -26,5 +27,18 @@ def get_topics():
     f.write('}')
     f.close()
 
+def get_wiki_files_list(docs_path):
+    f = open('wiki_files.json', 'w')
+    f.write('[\n')
+    for fl in os.listdir(docs_path):
+        print fl
+        if fl[0] == '.':
+            continue
+        f.write(fl + ',\n')
+    f.write(']')
+    f.close()
+
+
 if __name__ == '__main__':
-    get_topics()
+    #get_topics('/Users/jineshn/Code/python/gensim_scripts/backup_logs/wiki_normal.lda')
+    get_wiki_files_list('/Users/jineshn/Code/python/gensim_scripts/data/wiki_download_dir')
