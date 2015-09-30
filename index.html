@@ -13,10 +13,20 @@
     </head>
     <body>
         <div class="container">
-            <ul class="nav nav-pills" style="margin-top:10px;">
-                <li role="presentation" class="active"><a href="index.html">All Topics</a></li>
-                <li role="presentation"><a href="documents.html">Documents Search</a></li>
-            </ul>
+            <div class='col-md-12'>
+                <div class="dropdown" style="margin-top: 20px;">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        Select Option<span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li class="active"><a href="index.html">Wiki Topics</a></li>
+                        <li><a href="documents.html">Wiki Documents Search</a></li>
+                        <li><a href="bbc_index.html">BBC Topics</a></li>
+                        <li><a href="bbc_documents.html">BBC Documents Search</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class='col-md-12'>
             <div class='col-md-6'>
                 <h3 class='title'>Topics</h3>
                 <div style="overflow: scroll; height: 500px; border: solid #ccc 2px;">
@@ -39,11 +49,11 @@
                     </div>
                 </div>
             </div>
+            </div>
         </div>
 
         <script type="text/javascript">
         $(document).ready(function () {
-            console.log("loading index.html...");
             NS.topics.init();
         });
         </script>
