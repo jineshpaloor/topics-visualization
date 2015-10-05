@@ -115,7 +115,7 @@ NS.common = (function () {
             if (!topics_page){
                 setTimeout(function(){
                     NS.common.render_doc_pie_chart(Object.keys(NS.common.config.files)[0]);
-                }, 5000);
+                }, 500);
             }
         });
     };
