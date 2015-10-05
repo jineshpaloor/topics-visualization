@@ -134,8 +134,7 @@ NS.common = (function () {
 NS.wiki = (function () {
     // define some config (Settings)
     var config = {
-        autoInvokeInit: false, // whether the init function must be invoked automatically when page loads
-        topics: {}
+        autoInvokeInit: false // whether the init function must be invoked automatically when page loads
     };
 
     // define the init function (Implementation)
@@ -160,13 +159,12 @@ NS.wiki = (function () {
 NS.bbc = (function () {
     // define some config (Settings)
     var config = {
-        autoInvokeInit: false, // whether the init function must be invoked automatically when page loads
-        topics: {}
+        autoInvokeInit: false // whether the init function must be invoked automatically when page loads
     };
 
     // define the init function (Implementation)
     var init = function (topics_page) {
-        console.log("wiki init");
+        console.log("bbc init");
         NS.common.init({
             "topics_file": "/static/json/bbc_topics.json", 
             "files_list_file": "/static/json/bbc_files.json", 
