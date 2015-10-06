@@ -141,9 +141,9 @@ NS.wiki = (function () {
     var init = function (topics_page) {
         console.log("wiki init");
         NS.common.init({
-            "topics_file": "/static/json/topics.json", 
-            "files_list_file": "/static/json/wp_files.json", 
-            "doc_topics_file":"/static/json/doc_topics.json",
+            "topics_file": "/static/json/wiki_topics.json", 
+            "files_list_file": "/static/json/wiki_files.json", 
+            "doc_topics_file":"/static/json/wiki_doc_topics.json",
             "topics_page": topics_page
         }); 
     };
