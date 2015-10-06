@@ -1,0 +1,22 @@
+{
+"topic0": [["mi", 21.49], ["authority", 18.93], ["character", 15.02], ["sea", 10.2], ["tests", 8.2], ["pioneer", 6.87], ["concerned", 6.54], ["oxford", 4.5], ["miles", 4.14], ["immersed", 4.11]],
+"topic1": [["river", 56.56], ["requirement", 6.84], ["biomedical", 6.67], ["shell", 5.8], ["pipelines", 4.35], ["russian", 4.25], ["crc", 4.25], ["feed", 4.23], ["defining", 3.61], ["separated", 3.44]],
+"topic2": [["murray", 23.77], ["ft", 12.13], ["turns", 10.48], ["tape", 9.99], ["books", 9.79], ["tunnel", 7.62], ["metres", 7.21], ["civil", 6.84], ["question", 6.22], ["officially", 5.95]],
+"topic3": [["kilometres", 17.05], ["amateur", 15.43], ["hydroelectric", 13.94], ["coils", 11.79], ["converters", 10.17], ["thompson", 9.81], ["gaps", 6.84], ["impedances", 5.38], ["rating", 4.81], ["spark", 4.77]],
+"topic4": [["gate", 13.33], ["relevant", 12.78], ["abbreviations", 11.37], ["realised", 9.64], ["modification", 9.59], ["map", 9.14], ["laplace", 8.81], ["statistics", 8.56], ["optimal", 8.44], ["sequences", 8.33]],
+"topic5": [["windings", 25.38], ["rail", 18.83], ["operators", 14.79], ["magnetizing", 7.55], ["insulated", 6.4], ["kingdom", 5.88], ["joule", 5.53], ["britain", 5.43], ["deliver", 5.37], ["branch", 4.83]],
+"topic6": [["dam", 21.19], ["tesla", 12.88], ["faraday", 11.51], ["permeability", 10.1], ["forced", 8.85], ["extensive", 8.64], ["westinghouse", 7.59], ["residual", 6.87], ["regulator", 6.28], ["rectifier", 6.09]],
+"topic7": [["governments", 15.18], ["lake", 15.18], ["italy", 14.87], ["east", 12.5], ["reservoir", 8.67], ["legislation", 8.3], ["street", 7.02], ["official", 6.54], ["town", 6.49], ["steam", 5.23]],
+"topic8": [["australian", 22.39], ["victoria", 16.96], ["voice", 10.39], ["agreed", 9.75], ["rivers", 9.62], ["paris", 8.42], ["license", 6.34], ["pv", 6.12], ["send", 5.07], ["alliance", 4.94]],
+"topic9": [["marconi", 69.9], ["transmissions", 4.89], ["museum", 4.47], ["royal", 3.53], ["tunnels", 3.34], ["opened", 3.24], ["representing", 3.14], ["institution", 2.54], ["archives", 2.48], ["commission", 2.47]],
+"topic10": [["watt", 25.03], ["cores", 21.26], ["road", 10.51], ["ocean", 7.92], ["paul", 7.67], ["wall", 6.91], ["sections", 6.58], ["technically", 4.97], ["serving", 4.74], ["loops", 4.41]],
+"topic11": [["dots", 24.72], ["duration", 16.01], ["di", 15.37], ["timing", 8.58], ["regulators", 7.29], ["copy", 6.35], ["offset", 5.86], ["plain", 5.83], ["heard", 5.26], ["phrase", 4.74]],
+"topic12": [["tuning", 22.07], ["italian", 17.09], ["leakage", 15.31], ["receive", 9.92], ["fault", 7.59], ["consideration", 6.59], ["factory", 5.94], ["returned", 5.23], ["algorithm", 5.17], ["cold", 5.09]],
+"topic13": [["workers", 26.38], ["insulation", 14.17], ["cooled", 9.7], ["falls", 7.62], ["wound", 7.6], ["ships", 7.55], ["lakes", 7.22], ["railway", 7.08], ["symbols", 6.57], ["filled", 6.11]],
+"topic14": [["letters", 20.21], ["text", 18.64], ["target", 12.5], ["emf", 11.87], ["post", 10.4], ["hysteresis", 7.31], ["opening", 5.35], ["artificial", 4.6], ["bands", 4.58], ["experiment", 4.54]],
+"topic15": [["telegraph", 21.86], ["wales", 15.4], ["minute", 15.14], ["telegraphy", 14.65], ["sir", 9.41], ["message", 8.34], ["chief", 5.93], ["velocity", 3.62], ["learned", 2.89], ["island", 2.75]],
+"topic16": [["pid", 27.36], ["controller", 22.55], ["dot", 16.62], ["derivative", 10.56], ["controllers", 8.13], ["social", 3.38], ["dry", 3.0], ["issued", 2.9], ["enabled", 2.88], ["suggested", 2.6]],
+"topic17": [["committee", 22.7], ["inductance", 14.22], ["disturbances", 10.21], ["maintained", 10.0], ["bipolar", 8.43], ["polarity", 7.58], ["oscillation", 7.11], ["preferred", 6.84], ["canadian", 6.49], ["evaluation", 6.42]],
+"topic18": [["scheme", 38.8], ["morse", 35.59], ["guglielmo", 8.0], ["characters", 3.72], ["letter", 3.11], ["transatlantic", 2.59], ["transmitter", 2.49], ["messages", 2.14], ["valve", 1.86], ["ireland", 1.71]],
+"topic19": [["australia", 42.34], ["hydro", 16.94], ["flux", 14.75], ["mark", 5.11], ["overhead", 4.53], ["symbol", 3.91], ["prospective", 3.15], ["navy", 3.1], ["library", 3.1], ["roads", 3.08]]
+}

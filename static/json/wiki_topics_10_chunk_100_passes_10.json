@@ -1,0 +1,12 @@
+{
+"topic0": [["marconi", 44.86], ["controller", 11.4], ["windings", 7.62], ["guglielmo", 7.01], ["flux", 6.62], ["kilometres", 4.97], ["hydroelectric", 4.63], ["operators", 4.44], ["hydro", 4.29], ["thompson", 4.16]],
+"topic1": [["scheme", 55.44], ["telegraph", 11.59], ["dots", 8.07], ["character", 6.3], ["message", 4.41], ["tape", 3.88], ["pv", 2.96], ["timing", 2.8], ["pulses", 2.28], ["officially", 2.26]],
+"topic2": [["pid", 30.41], ["dot", 19.13], ["authority", 11.41], ["controllers", 9.31], ["committee", 6.79], ["agreed", 6.35], ["license", 4.39], ["chief", 4.38], ["pioneer", 4.14], ["institution", 3.7]],
+"topic3": [["minute", 18.13], ["watt", 14.47], ["leakage", 11.33], ["duration", 10.88], ["letters", 9.57], ["letter", 9.26], ["receive", 7.35], ["inductance", 6.37], ["impedances", 6.34], ["cooled", 6.31]],
+"topic4": [["australia", 30.53], ["australian", 10.27], ["rail", 9.08], ["governments", 7.77], ["lake", 7.77], ["italy", 7.61], ["wales", 7.4], ["victoria", 7.19], ["east", 6.4], ["italian", 5.98]],
+"topic5": [["morse", 47.24], ["amateur", 8.84], ["tuning", 7.94], ["characters", 6.38], ["mi", 5.53], ["transmissions", 5.18], ["voice", 4.93], ["ft", 4.77], ["target", 4.7], ["insulation", 4.48]],
+"topic6": [["workers", 23.17], ["converters", 16.2], ["turns", 11.45], ["insulated", 8.81], ["road", 8.2], ["codes", 7.61], ["fault", 7.59], ["railway", 6.22], ["hum", 5.4], ["filled", 5.36]],
+"topic7": [["derivative", 33.63], ["representing", 12.69], ["death", 8.7], ["pi", 7.14], ["algorithm", 7.1], ["identity", 7.01], ["relevant", 6.51], ["profile", 6.29], ["filtering", 5.69], ["sign", 5.25]],
+"topic8": [["telegraphy", 19.86], ["text", 17.68], ["paris", 10.09], ["books", 9.72], ["royal", 9.43], ["letters", 7.34], ["social", 7.12], ["archives", 6.63], ["dry", 6.32], ["library", 5.8]],
+"topic9": [["river", 45.38], ["cores", 9.4], ["sir", 7.73], ["rivers", 6.94], ["biomedical", 6.29], ["shell", 6.0], ["requirement", 5.49], ["faraday", 4.74], ["permeability", 4.14], ["pumping", 3.88]],
+}

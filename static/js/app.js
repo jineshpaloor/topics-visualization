@@ -136,16 +136,60 @@ NS.wiki = (function () {
     var config = {
         autoInvokeInit: false // whether the init function must be invoked automatically when page loads
     };
+    var file_mapping = {
+        'default': {
+            "topics_file": "/static/json/wiki_topics.json", 
+            "doc_topics_file": "/static/json/wiki_doc_topics.json",
+            "topics": 30, "chunks": 10, "passes": 10
+        },
+        'topics-10-chunk-10-passes-10': {
+            "topics_file": "/static/json/wiki_topics.json", 
+            "doc_topics_file": "/static/json/wiki_doc_topics.json",
+            "topics": 10, "chunks": 10, "passes": 10
+        },
+        'topics-100-chunk-10-passes-10': {
+            "topics_file": "/static/json/wiki_topics_100_chunk_10_passes_10.json", 
+            "doc_topics_file": "/static/json/wiki_doc_topics_100_chunk_10_passes_10.json",
+            "topics": 100, "chunks": 10, "passes": 10
+        },
+        'topics-10-chunk-100-passes-10': {
+            "topics_file": "/static/json/wiki_topics_10_chunk_100_passes_10.json", 
+            "doc_topics_file": "/static/json/wiki_doc_topics_10_chunk_100_passes_10.json",
+            "topics": 10, "chunks": 100, "passes": 10
+        },
+        'topics-20-chunk-100-passes-10': {
+            "topics_file": "/static/json/wiki_topics_20_chunk_100_passes_10.json", 
+            "doc_topics_file": "/static/json/wiki_doc_topics_20_chunk_100_passes_10.json",
+            "topics": 20, "chunks": 100, "passes": 10
+        },
+        'topics-30-chunk-10-passes-100': {
+            "topics_file": "/static/json/wiki_topics_30_chunk_10_passes_100.json", 
+            "doc_topics_file": "/static/json/wiki_doc_topics_30_chunk_10_passes_100.json",
+            "topics": 30, "chunks": 10, "passes": 100
+        },
+        'topics-30-chunk-30-passes-10': {
+            "topics_file": "/static/json/wiki_topics_30_chunk_30_passes_10.json", 
+            "doc_topics_file": "/static/json/wiki_doc_topics_30_chunk_30_passes_10.json",
+            "topics": 30, "chunks": 30, "passes": 10
+        },
+        'topics-30-chunk-50-passes-10': {
+            "topics_file": "/static/json/wiki_topics_30_chunk_50_passes_10.json", 
+            "doc_topics_file": "/static/json/wiki_doc_topics_30_chunk_50_passes_10.json",
+            "topics": 30, "chunks": 50, "passes": 10
+        }
+    };
 
     // define the init function (Implementation)
-    var init = function (topics_page) {
+    var init = function (topics_page, config_choice) {
         console.log("wiki init");
-        NS.common.init({
-            "topics_file": "/static/json/wiki_topics.json", 
-            "files_list_file": "/static/json/wiki_files.json", 
-            "doc_topics_file":"/static/json/wiki_doc_topics.json",
-            "topics_page": topics_page
-        }); 
+        var data = file_mapping[config_choice];
+        $("#topic-count").text(data["topics"]);
+        $("#chunk-count").text(data["chunks"]);
+        $("#pass-count").text(data["passes"]);
+        data["topics_page"] = topics_page;
+        data["files_list_file"] = "/static/json/wiki_files.json", 
+        console.log('data is :', data);
+        NS.common.init(data); 
     };
     
     // return an object
@@ -180,3 +224,12 @@ NS.bbc = (function () {
     };
 
 })();
+
+$(document).ready(function(){
+    // wiki config change
+    $(".wiki-config").click(function(){
+        console.log("wiki config changed ..");
+        var wiki_config = $(this).data("config");
+        NS.wiki.init(false, wiki_config);
+    });
+});

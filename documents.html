@@ -23,7 +23,7 @@
                 <hr>
             </div>
             <div class='chart col-md-12 row'>
-                <div class='col-md-6'>
+                <div class='chart col-md-3 row'>
                     <div class="dropdown">
                         <button class="btn btn-default dropdown-toggle" type="button" id="documents-list" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                             Select A Document <span class="caret"></span>
@@ -32,8 +32,30 @@
                         </ul>
                     </div>
                 </div>
+                <div class='chart col-md-6 row center-block'> 
+                    <button class="btn btn-info" type="button">Topics <span id="topic-count" class="badge">0</span> </button>
+                    <button class="btn btn-success" type="button"> Chunk Size <span id="chunk-count" class="badge">0</span> </button>
+                    <button class="btn btn-warning" type="button"> Passes <span id="pass-count" class="badge">0</span> </button>
+                </div>
+                <div class='chart col-md-3 row pull-right'>
+                    <div class="dropdown pull-right">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="wiki-configs" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            Configure Output<span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" id="wiki-config-dropdown-menu" aria-labelledby="wiki-configs">
+                            <li class="wiki-config" data-config="topics-10-chunk-10-passes-10"><a href="#">Topics(10) Chunk(10) Passes(10)</a></li>
+                            <li class="wiki-config" data-config="topics-100-chunk-10-passes-10"><a href="#">Topics(100) Chunk(10) Passes(10)</a></li>
+                            <li class="wiki-config" data-config="topics-10-chunk-100-passes-10"><a href="#">Topics(10) Chunk(100) Passes(10)</a></li>
+                            <li class="wiki-config" data-config="topics-20-chunk-100-passes-10"><a href="#">Topics(20) Chunk(100) Passes(10)</a></li>
+                            <li class="wiki-config" data-config="topics-30-chunk-10-passes-100"><a href="#">Topics(30) Chunk(10) Passes(100)</a></li>
+                            <li class="wiki-config" data-config="topics-30-chunk-30-passes-10"><a href="#">Topics(30) Chunk(30) Passes(10)</a></li>
+                            <li class="wiki-config" data-config="topics-30-chunk-50-passes-10"><a href="#">Topics(30) Chunk(50) Passes(10)</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class='chart col-md-12 row' style="margin-top:20px;">
+            <div class='chart col-md-12 row'> <hr> </div>
+            <div class='chart col-md-12 row'>
               <div class='col-md-6'>
                 <div class="panel panel-primary">
                     <div class="panel-heading" id="doc-title" >Document Topics</div>
@@ -54,7 +76,7 @@
         </div>
         <script type="text/javascript">
         $(document).ready(function () {
-            NS.wiki.init(false);
+            NS.wiki.init(false, 'default');
         });
         </script>
     </body>
