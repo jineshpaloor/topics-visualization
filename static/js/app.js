@@ -20,7 +20,7 @@ NS.common = (function () {
         var chart = c3.generate({
             bindto: "#topic-chart",
             data: {
-                columns: config.topics[title],
+                columns: NS.common.config.topics[title],
                 type : 'pie'
             }
         });
@@ -33,7 +33,7 @@ NS.common = (function () {
         var chart = c3.generate({
             bindto: "#doc-chart",
             data: {
-                columns: config.doc_topics[config.files[doc_name]],
+                columns: NS.common.config.doc_topics[NS.common.config.files[doc_name]],
                 type : 'pie',
                 onclick: function (d, i) { 
                     NS.common.render_topic_pie_chart('topic' + d["id"]);
@@ -41,7 +41,7 @@ NS.common = (function () {
             }
         });
         $("#doc-title").text(doc_name);
-        var topic_no = "topic" + config.doc_topics[config.files[doc_name]][0][0];
+        var topic_no = "topic" + NS.common.config.doc_topics[NS.common.config.files[doc_name]][0][0];
         NS.common.render_topic_pie_chart(topic_no) 
     }
 
@@ -76,7 +76,7 @@ NS.common = (function () {
     var update_docs_dropdown_menu = function() {
         var li_menu = "";
         var doc_names = [];
-        $.each(config.files, function(k, v){
+        $.each(NS.common.config.files, function(k, v){
             doc_names.push(k);
         });
         doc_names.sort();
@@ -89,14 +89,15 @@ NS.common = (function () {
     };
 
     var init = function (data) {
+        console.log("common init :", data);
         var topics_file = data["topics_file"];
         var files_list_file = data["files_list_file"];
         var doc_topics_file = data["doc_topics_file"];
         var topics_page = data["topics_page"];
 
         $.getJSON(topics_file, function(topics) {
-            console.log("1.rendering all topics...");
-            config.topics = topics; 
+            console.log("1.rendering all topics...", topics_file, topics);
+            NS.common.config.topics = topics; 
             if (topics_page){
                 NS.common.render_topics("#topic-table tbody", topics);
                 NS.common.render_topic_pie_chart('topic0');
@@ -105,12 +106,12 @@ NS.common = (function () {
 
         $.getJSON(files_list_file, function(file_names) {
             console.log("2.rendering all files...");
-            config.files = file_names; 
+            NS.common.config.files = file_names; 
         });
 
         $.getJSON(doc_topics_file, function(doc_topics) {
             console.log("3.rendering all doc topics...");
-            config.doc_topics = doc_topics; 
+            NS.common.config.doc_topics = doc_topics; 
             NS.common.update_docs_dropdown_menu();
             if (!topics_page){
                 setTimeout(function(){
@@ -141,11 +142,6 @@ NS.wiki = (function () {
             "topics_file": "/static/json/wiki_topics.json", 
             "doc_topics_file": "/static/json/wiki_doc_topics.json",
             "topics": 30, "chunks": 10, "passes": 10
-        },
-        'topics-10-chunk-10-passes-10': {
-            "topics_file": "/static/json/wiki_topics.json", 
-            "doc_topics_file": "/static/json/wiki_doc_topics.json",
-            "topics": 10, "chunks": 10, "passes": 10
         },
         'topics-100-chunk-10-passes-10': {
             "topics_file": "/static/json/wiki_topics_100_chunk_10_passes_10.json", 
@@ -188,7 +184,6 @@ NS.wiki = (function () {
         $("#pass-count").text(data["passes"]);
         data["topics_page"] = topics_page;
         data["files_list_file"] = "/static/json/wiki_files.json", 
-        console.log('data is :', data);
         NS.common.init(data); 
     };
     
