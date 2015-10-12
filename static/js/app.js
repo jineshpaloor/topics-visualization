@@ -89,14 +89,13 @@ NS.common = (function () {
     };
 
     var init = function (data) {
-        console.log("common init :", data);
         var topics_file = data["topics_file"];
         var files_list_file = data["files_list_file"];
         var doc_topics_file = data["doc_topics_file"];
         var topics_page = data["topics_page"];
 
         $.getJSON(topics_file, function(topics) {
-            console.log("1.rendering all topics...", topics_file, topics);
+            console.log("1.rendering all topics...", topics_file);
             NS.common.config.topics = topics; 
             if (topics_page){
                 NS.common.render_topics("#topic-table tbody", topics);
@@ -105,12 +104,12 @@ NS.common = (function () {
         });
 
         $.getJSON(files_list_file, function(file_names) {
-            console.log("2.rendering all files...");
+            console.log("2.rendering all files...", files_list_file);
             NS.common.config.files = file_names; 
         });
 
         $.getJSON(doc_topics_file, function(doc_topics) {
-            console.log("3.rendering all doc topics...");
+            console.log("3.rendering all doc topics...", doc_topics_file);
             NS.common.config.doc_topics = doc_topics; 
             NS.common.update_docs_dropdown_menu();
             if (!topics_page){
